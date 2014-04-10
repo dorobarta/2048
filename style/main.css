@@ -2,8 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: #FFFFFF;
+  color: #8D5A6F;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -53,14 +53,14 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #EB96B9;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
-  color: white;
+  color: #FFFFFF;
   margin-top: 8px;
   text-align: center; }
   .score-container:after, .best-container:after {
@@ -72,7 +72,7 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da; }
+    color: #FFFFFF; }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
@@ -80,7 +80,7 @@ h1.title {
     font-size: 25px;
     line-height: 25px;
     font-weight: bold;
-    color: rgba(119, 110, 101, 0.9);
+    color: #8D5A6F;
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
@@ -101,7 +101,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #776e65;
+  color: #8D5A6F;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -137,6 +137,7 @@ hr {
 
   100% {
     opacity: 1; } }
+
 .game-container {
   margin-top: 40px;
   position: relative;
@@ -149,7 +150,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: #EE99BB;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -163,7 +164,8 @@ hr {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(238, 228, 218, 0.5);
+    background: rgba(238, 153, 187, 0.5);
+    color: #8D5A6F;
     z-index: 100;
     text-align: center;
     -webkit-animation: fade-in 800ms ease 1200ms;
@@ -183,11 +185,11 @@ hr {
       margin-top: 59px; }
     .game-container .game-message a {
       display: inline-block;
-      background: #8f7a66;
+      background: #8D5A6F;
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
-      color: #f9f6f2;
+      color: #FFFFFF;
       height: 40px;
       line-height: 42px;
       margin-left: 9px; }
@@ -220,7 +222,7 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: rgba(238, 228, 218, 0.35); }
+  background: #F9D7E5; }
   .grid-cell:last-child {
     margin-right: 0; }
 
@@ -313,58 +315,55 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    color: rgba(0, 0, 0, 0);
+    background: url('../tile-sets/mira/2.png'); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    color: rgba(0, 0, 0, 0);
+    background: url('../tile-sets/mira/4.png'); }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #f2b179; }
+    color: rgba(0, 0, 0, 0);
+    background: url('../tile-sets/mira/8.png'); }
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
-    background: #f59563; }
+    color: rgba(0, 0, 0, 0);
+    background: #f59563;
+    background: url('../tile-sets/mira/16.png'); }
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
-    background: #f67c5f; }
+    color: rgba(0, 0, 0, 0);
+    background: url('../tile-sets/mira/32.png'); }
   .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
-    background: #f65e3b; }
+    color: rgba(0, 0, 0, 0);
+    background: url('../tile-sets/mira/64.png'); }
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
-    background: #edcf72;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+    color: rgba(0, 0, 0, 0);
+    background: url('../tile-sets/mira/128.png');
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
-    background: #edcc61;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
+    color: rgba(0, 0, 0, 0);
+    background: url('../tile-sets/mira/256.png');
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
-    background: #edc850;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
+    color: rgba(0, 0, 0, 0);
+    background: url('../tile-sets/mira/512.png');
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
-    background: #edc53f;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
+    color: rgba(0, 0, 0, 0);
+    background: url('../tile-sets/mira/1024.png');
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
-    background: #edc22e;
+    color: rgba(0, 0, 0, 0);
+    background: url('../tile-sets/mira/1024.png');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
@@ -372,6 +371,7 @@ hr {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
+    color: rgba(0, 0, 0, 0);
     background: #3c3a32;
     font-size: 30px; }
     @media screen and (max-width: 520px) {
@@ -488,11 +488,11 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #8f7a66;
+  background: #8D5A6F;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
-  color: #f9f6f2;
+  color: #FFFFFF;
   height: 40px;
   line-height: 42px;
   display: block;
